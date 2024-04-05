@@ -1,3 +1,66 @@
+* {
+    border: 1px dotted blue;
+    box-sizing: border-box;
+}
+
+body {
+    /* padding: 3rem; */
+    margin: 0;
+}
+
+header, header h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.Header-Nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    position: fixed;
+}
+
+.Header-Nav__Travel-Site {
+
+}
+
+.Header-Nav__List{
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    
+}
+
+.Hours__Times{
+    display: flex;
+    flex-direction: row;
+}
+
+.Social__Icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 9rem;
+
+}
+
+.Social__Icons--Individual {
+
+    width: auto;
+    height: 40px;
+    margin-bottom: 0;
+}
 

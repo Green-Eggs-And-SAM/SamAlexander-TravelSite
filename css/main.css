@@ -1,0 +1,43 @@
+.Hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+.Hero__Text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.Hero__Img {
+    width: 25vw;
+    
+}
+
+.Recommendations__Title {
+    padding-left: 4rem;
+}
+
+.Recommendations__Cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Recommendations__Cards--Item {
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    height: 18rem;
+    margin: 1rem;
+}
+
+.Recommendations__Cards--Title {
+
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
