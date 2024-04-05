@@ -5,13 +5,19 @@
 
 body {
     /* padding: 3rem; */
-    margin: 0;
+    margin: -5px;
 }
 
 header, header h3 {
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    background-color: grey;
+}
+
+.Header__Container {
+    width: 101%;
+     position: fixed;
 }
 
 .Header-Nav {
@@ -19,16 +25,21 @@ header, header h3 {
     justify-content: space-between;
     padding-left: 4rem;
     padding-right: 4rem;
-    position: fixed;
 }
 
-.Header-Nav__Travel-Site {
 
+
+.Header-Nav__Travel-Site {
+    
 }
 
 .Header-Nav__List{
     display: flex;
     list-style: none;
+    flex-direction: row;
+    right: 4rem;
+   
+    
 }
 
 a {
@@ -54,13 +65,14 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     width: 9rem;
+    transform: translate(0,30px);
 
 }
 
 .Social__Icons--Individual {
-
+    
     width: auto;
     height: 40px;
-    margin-bottom: 0;
+    
 }
 
