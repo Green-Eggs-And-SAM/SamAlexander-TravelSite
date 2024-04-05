@@ -29,6 +29,7 @@
 
 .Recommendations__Cards--Item {
     display: flex;
+    position: relative;
     flex-direction: column;
     width: 12rem;
     height: 18rem;
@@ -37,7 +38,9 @@
 
 .Recommendations__Cards--Title {
 
-    align-self: flex-end;
-    justify-self: flex-end;
+
+    position: absolute;
+    bottom: 0;
+    right: 10px;
 }
 

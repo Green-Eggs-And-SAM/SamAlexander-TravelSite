@@ -8,21 +8,18 @@ body {
     margin: -5px;
 }
 
-header, header h3 {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    background-color: grey;
-}
+
 
 .Header__Container {
-    width: 101%;
+    width: 100.5vw;
      position: fixed;
+     background-color: #FFFFFF;
 }
 
 .Header-Nav {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     padding-left: 4rem;
     padding-right: 4rem;
 }
@@ -33,13 +30,19 @@ header, header h3 {
     
 }
 
+.Header-Nav__Logo {
+    color: #335576;
+}
+
 .Header-Nav__List{
     display: flex;
     list-style: none;
     flex-direction: row;
-    right: 4rem;
-   
-    
+    right: 4rem; 
+}
+
+.Header-Nav__Active{
+    border-bottom: 4px solid #DB7A4E;
 }
 
 a {
@@ -60,19 +63,24 @@ footer {
     flex-direction: row;
 }
 
+.Hours__Times--Days {
+    
+    padding-right: 30px;
+}
+
 .Social__Icons{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 9rem;
-    transform: translate(0,30px);
+    transform: translate(0,40px);
 
 }
 
 .Social__Icons--Individual {
     
     width: auto;
-    height: 40px;
+    height: 30px;
     
 }
 
