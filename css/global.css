@@ -1,19 +1,22 @@
 * {
-    border: 1px dotted blue;
+    /* border: 1px dotted blue; */
     box-sizing: border-box;
 }
 
 body {
     /* padding: 3rem; */
     margin: -5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #335576;
 }
 
 
 
 .Header__Container {
-    width: 100.5vw;
+    width: 100vw;
      position: fixed;
      background-color: #FFFFFF;
+     z-index: 2;
 }
 
 .Header-Nav {
@@ -39,6 +42,13 @@ body {
     list-style: none;
     flex-direction: row;
     right: 4rem; 
+    color: black;
+}
+
+.Header-Nav__List--Link{
+    margin-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .Header-Nav__Active{
@@ -55,15 +65,19 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding: 2rem;
-    
+    background-color: #FEFAF5;
 }
 
-.Hours__Times{
+.Footer__Times{
     display: flex;
     flex-direction: row;
 }
 
-.Hours__Times--Days {
+.Footer__Subtitle{
+    color: #DB7A4E;
+}
+
+.Footer__Times--Padding {
     
     padding-right: 30px;
 }
