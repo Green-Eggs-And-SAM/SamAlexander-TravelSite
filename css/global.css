@@ -1,100 +1,98 @@
 * {
-    /* border: 1px dotted blue; */
-    box-sizing: border-box;
+  /* border: 1px dotted blue; */
+  box-sizing: border-box;
 }
 
 body {
-    /* padding: 3rem; */
-    margin: -5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #335576;
+  /* padding: 3rem; */
+  margin: -5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #335576;
 }
 
+h1 {
+  font-size: 4em;
+}
 
+h2 {
+  font-size: 2.5em;
+}
 
 .Header__Container {
-    width: 100vw;
-     position: fixed;
-     background-color: #FFFFFF;
-     z-index: 2;
+  width: 101vw;
+  position: fixed;
+  background-color: #ffffff;
+  z-index: 2;
 }
 
 .Header-Nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding-left: 4rem;
-    padding-right: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
-
-
 .Header-Nav__Travel-Site {
-    
 }
 
 .Header-Nav__Logo {
-    color: #335576;
+  color: #335576;
 }
 
-.Header-Nav__List{
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-    right: 4rem; 
-    color: black;
+.Header-Nav__List {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  right: 4rem;
+  color: black;
 }
 
-.Header-Nav__List--Link{
-    margin-left: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+.Header-Nav__List--Link {
+  margin-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
-.Header-Nav__Active{
-    border-bottom: 4px solid #DB7A4E;
+.Header-Nav__Active,
+.Header-Nav__List--Link:hover {
+  border-bottom: 4px solid #db7a4e;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
-
 
 footer {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2rem;
-    background-color: #FEFAF5;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background-color: #fefaf5;
 }
 
-.Footer__Times{
-    display: flex;
-    flex-direction: row;
+.Footer__Title {
+  display: flex;
+  flex-direction: row;
 }
 
-.Footer__Subtitle{
-    color: #DB7A4E;
+.Footer__Subtitle {
+  color: #db7a4e;
 }
 
 .Footer__Times--Padding {
-    
-    padding-right: 30px;
+  padding-right: 30px;
 }
 
-.Social__Icons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 9rem;
-    transform: translate(0,40px);
-
+.Social__Icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 9rem;
+  transform: translate(0, 40px);
 }
 
 .Social__Icons--Individual {
-    
-    width: auto;
-    height: 30px;
-    
+  width: auto;
+  height: 30px;
 }
-

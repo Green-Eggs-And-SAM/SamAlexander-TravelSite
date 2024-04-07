@@ -52,7 +52,7 @@ button {
 .Recommendations__Cards--Item:hover {
   width: 17rem;
   height: 25.5rem;
-  transform: translateY(1.75rem);
+  transform: translateY(-0.75rem);
 }
 
 .Recommendations__Cards--Img {
