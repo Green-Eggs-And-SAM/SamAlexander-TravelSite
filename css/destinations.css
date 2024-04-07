@@ -57,11 +57,22 @@
   border-radius: 10px;
 }
 
-.Destination__Hawaii--Background-Parallax {
-  background-image: url('../assets/Images/hawaii.jpg');
+.Destination__Parallax {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   width: auto;
   /* height: 100vh; */
+}
+
+.Destination__Greece--Background {
+  background-image: url('../assets/Images/greece.jpg');
+}
+
+.Destination__Hawaii--Background {
+  background-image: url('../assets/Images/hawaii.jpg');
+}
+
+.Destination__Iceland--Background {
+  background-image: url('../assets/Images/iceland.jpg');
 }

@@ -2,7 +2,8 @@ button {
   border: none;
   padding: 1rem 3rem 1rem 3rem;
   border-radius: 2rem;
-  background-color: orange;
+  background-color: #db7a4e;
+  color: white;
 }
 
 .Hero {
@@ -37,6 +38,7 @@ button {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  height: 28rem;
 }
 
 .Recommendations__Cards--Item {
@@ -52,7 +54,8 @@ button {
 .Recommendations__Cards--Item:hover {
   width: 17rem;
   height: 25.5rem;
-  transform: translateY(-0.75rem);
+  margin: 0.5rem;
+  transform: translateY(-0.25rem);
 }
 
 .Recommendations__Cards--Img {
