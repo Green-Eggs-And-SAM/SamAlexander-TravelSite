@@ -1,0 +1,74 @@
+@use 'colors.scss';
+
+button {
+    border: none;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 2rem;
+    background-color: colors.$dark-orange;
+    color: white;
+}
+
+.Hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+    padding-top: 8rem;
+    background-color: colors.$off-white;
+
+    &__Text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 50%;
+    }
+
+    &__Img {
+        width: 25vw;
+    }
+}
+
+.Recommendations {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    &__Title {
+        padding-left: 4rem;
+    }
+
+    &__Cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 28rem;
+
+        &--Img {
+            border-radius: 5px;
+            box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.2);
+        }
+
+        &--Title {
+            position: absolute;
+            bottom: 0;
+            right: 15px;
+            color: white;
+        }
+    }
+
+    &__Cards--Item {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        width: 16rem;
+        height: 24rem;
+        margin: 1rem;
+        transition: 0.1s;
+
+        &:hover {
+            width: 17rem;
+            height: 25.5rem;
+            margin: 0.5rem;
+            transform: translateY(-0.25rem);
+        }
+    }
+}

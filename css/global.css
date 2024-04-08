@@ -18,6 +18,11 @@ h2 {
   font-size: 2.5em;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .Header__Container {
   width: 101vw;
   position: fixed;
@@ -32,14 +37,12 @@ h2 {
   padding-left: 4rem;
   padding-right: 4rem;
 }
-
-.Header-Nav__Travel-Site {
-}
-
 .Header-Nav__Logo {
   color: #335576;
 }
-
+.Header-Nav__Active, .Header-Nav__List--Link:hover {
+  border-bottom: 4px solid #db7a4e;
+}
 .Header-Nav__List {
   display: flex;
   list-style: none;
@@ -47,21 +50,10 @@ h2 {
   right: 4rem;
   color: black;
 }
-
 .Header-Nav__List--Link {
   margin-left: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-.Header-Nav__Active,
-.Header-Nav__List--Link:hover {
-  border-bottom: 4px solid #db7a4e;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
 }
 
 footer {
@@ -91,8 +83,7 @@ footer {
   width: 9rem;
   transform: translate(0, 40px);
 }
-
 .Social__Icons--Individual {
   width: auto;
   height: 30px;
-}
+}/*# sourceMappingURL=global.css.map */

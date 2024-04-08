@@ -1,0 +1,95 @@
+@use 'colors.scss';
+
+* {
+    /* border: 1px dotted blue; */
+    box-sizing: border-box;
+}
+
+body {
+    /* padding: 3rem; */
+    margin: -5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: colors.$dark-blue;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Header__Container {
+    width: 101vw;
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.Header-Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    &__Logo {
+        color: colors.$dark-blue;
+    }
+
+    &__Active,
+    &__List--Link:hover {
+        border-bottom: 4px solid colors.$dark-orange;
+    }
+
+    &__List {
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        right: 4rem;
+        color: black;
+        &--Link {
+            margin-left: 1rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-color: colors.$off-white;
+}
+
+.Footer__Title {
+    display: flex;
+    flex-direction: row;
+}
+
+.Footer__Subtitle {
+    color: colors.$dark-orange;
+}
+
+.Footer__Times--Padding {
+    padding-right: 30px;
+}
+
+.Social__Icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 9rem;
+    transform: translate(0, 40px);
+
+    &--Individual {
+        width: auto;
+        height: 30px;
+    }
+}

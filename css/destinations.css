@@ -1,25 +1,27 @@
-/* Hawaii */
 .Destination {
   padding: 8rem 4rem 8rem 4rem;
   height: 100%;
 }
-
 .Destination__Title {
-  /* padding-top: 4rem;
-  padding-left: 4rem; */
   color: white;
   margin-bottom: 6rem;
 }
-
-.Destination__Itinerary-Flex-Container {
-  display: flex;
-  flex-direction: column;
-  /* height: 100%; */
-  bottom: 0;
-  align-items: center;
-  justify-content: center;
+.Destination__Greece--Background {
+  background-image: url("../assets/Images/greece.jpg");
 }
-
+.Destination__Hawaii--Background {
+  background-image: url("../assets/Images/hawaii.jpg");
+}
+.Destination__Iceland--Background {
+  background-image: url("../assets/Images/iceland.jpg");
+}
+.Destination__Parallax {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: auto;
+  /* height: 100vh; */
+}
 .Destination__Itinerary-All-Cards {
   display: flex;
   flex-direction: row;
@@ -28,12 +30,18 @@
   justify-content: center;
   /* height: 100vh; */
 }
-
+.Destination__Itinerary-Flex-Container {
+  display: flex;
+  flex-direction: column;
+  /* height: 100%; */
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
 .Destination__Itinerary-Card {
   background-color: white;
   color: black;
   width: 16rem;
-
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -41,38 +49,12 @@
   margin: 0rem 1rem 0rem 1rem;
   text-align: center;
 }
-
 .Destination__Itinerary-Card--Title {
   border-bottom: 2px solid black;
 }
-
-.Destination__Itinerary-Card--Title {
-  border-bottom: 2px solid black;
-}
-
 .Destination__Itinerary-Card--Content {
   margin: 0.5rem;
   background-color: #fefaf5;
   padding: 1rem;
   border-radius: 10px;
-}
-
-.Destination__Parallax {
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  width: auto;
-  /* height: 100vh; */
-}
-
-.Destination__Greece--Background {
-  background-image: url('../assets/Images/greece.jpg');
-}
-
-.Destination__Hawaii--Background {
-  background-image: url('../assets/Images/hawaii.jpg');
-}
-
-.Destination__Iceland--Background {
-  background-image: url('../assets/Images/iceland.jpg');
-}
+}/*# sourceMappingURL=destinations.css.map */

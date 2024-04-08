@@ -1,0 +1,75 @@
+@use 'colors';
+
+.Destination {
+    padding: 8rem 4rem 8rem 4rem;
+    height: 100%;
+
+    &__Title {
+        color: white;
+        margin-bottom: 6rem;
+    }
+
+    &__Greece--Background {
+        background-image: url('../assets/Images/greece.jpg');
+    }
+
+    &__Hawaii--Background {
+        background-image: url('../assets/Images/hawaii.jpg');
+    }
+
+    &__Iceland--Background {
+        background-image: url('../assets/Images/iceland.jpg');
+    }
+
+    &__Parallax {
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        width: auto;
+        /* height: 100vh; */
+    }
+
+    &__Itinerary {
+        &-All-Cards {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            /* height: 100vh; */
+        }
+
+        &-Flex-Container {
+            display: flex;
+            flex-direction: column;
+            /* height: 100%; */
+            bottom: 0;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &-Card {
+            background-color: white;
+            color: black;
+            width: 16rem;
+
+            border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            margin: 0rem 1rem 0rem 1rem;
+            text-align: center;
+
+            &--Title {
+                border-bottom: 2px solid black;
+            }
+
+            &--Content {
+                margin: 0.5rem;
+                background-color: colors.$off-white;
+                padding: 1rem;
+                border-radius: 10px;
+            }
+        }
+    }
+}
